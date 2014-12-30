@@ -1,0 +1,25 @@
+#ifndef GRAPHICS_HPP
+#define GRAPHICS_HPP
+
+#include <SFML/Graphics.hpp>
+#include <string>
+
+class Graphics
+{
+public:
+  Graphics(sf::RenderWindow* w);
+  void loadTextures();
+  const sf::Texture* getTexture(std::string id);
+  void const draw();
+  
+  virtual ~Graphics();
+
+
+protected:
+  std::vector<sf::Texture*> m_textures;
+  sf::RenderWindow* m_window;
+
+};
+
+
+#endif //GRAPHICS_HPP

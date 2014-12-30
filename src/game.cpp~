@@ -1,0 +1,40 @@
+#include<game.hpp>
+#include <SFML/Graphics.hpp>
+using namespace sf;
+
+Game::Game(RenderWindow* w)
+{
+  m_window=w;
+}
+void Game::run()
+{
+  while(window->isOpen())
+    {
+      Event e;
+      while(window->pollEvent(e))
+	{
+	  switch(e.type)
+	    {
+	    case Event::Closed : window->close();break;
+	    case Event::KeyPressed:
+	    {
+	      switch(e.key.code)
+		{
+		case Keyboard::Escape: window->close();break;
+		default:break;
+		}
+		}break;
+	    case Event::KeyReleased:
+	    {
+	      switch(e.key.code)
+		{
+		default:break;
+		}
+		}break;
+	    default:break;
+	    }
+	}
+      window->clear(Color(4,159,134));
+      window->display();
+    }
+}

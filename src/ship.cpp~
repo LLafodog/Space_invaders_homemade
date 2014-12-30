@@ -1,0 +1,8 @@
+#include <Ship.hpp>
+
+Ship::Ship(int id, float speed, float life)
+{
+  m_life=life;
+  m_id=id;
+  m_speed=speed;
+}

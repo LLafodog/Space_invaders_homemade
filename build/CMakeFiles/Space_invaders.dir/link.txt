@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/Space_invaders.dir/src/game.cpp.o CMakeFiles/Space_invaders.dir/src/graphics.cpp.o CMakeFiles/Space_invaders.dir/src/object.cpp.o CMakeFiles/Space_invaders.dir/src/ship.cpp.o CMakeFiles/Space_invaders.dir/game/main.cpp.o  -o bin/Space_invaders -rdynamic -lsfml-graphics -lsfml-window -lsfml-system 

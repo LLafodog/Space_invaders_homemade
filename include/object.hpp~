@@ -1,0 +1,19 @@
+#ifndef OBJECT_HPP
+#define OBJECT_HPP
+
+#include <SFML/Graphics.hpp>
+
+class Object
+{
+public:
+  Object(float x, float y);
+
+  void setPosition(sf::Vector2f v);
+  void setPositiion(float x, float y);
+
+  ~Object();
+
+protected:
+};
+
+#endif // OBJECT_HPP
