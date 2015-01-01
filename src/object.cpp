@@ -1,7 +1,10 @@
 #include<object.hpp>
 
-Object::Object(float x, float y, bool solid)
+using namespace std;
+
+Object::Object(string  id,float x, float y, bool solid)
   {
+    m_ID=id;
     m_x=x;
     m_y=y;
     m_solid=solid;

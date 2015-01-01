@@ -7,7 +7,7 @@
 class Object
 {
 public:
-  Object(float x, float y, bool solid=true);
+  Object(std::string id,float x, float y, bool solid=true);
 
   //Setter
   void setPosition(sf::Vector2f v);

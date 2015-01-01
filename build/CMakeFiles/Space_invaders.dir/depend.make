@@ -9,6 +9,7 @@ CMakeFiles/Space_invaders.dir/src/game.cpp.o: ../include/graphics.hpp
 CMakeFiles/Space_invaders.dir/src/game.cpp.o: ../include/object.hpp
 CMakeFiles/Space_invaders.dir/src/game.cpp.o: ../src/game.cpp
 
+CMakeFiles/Space_invaders.dir/src/graphics.cpp.o: ../include/defines.hpp
 CMakeFiles/Space_invaders.dir/src/graphics.cpp.o: ../include/graphics.hpp
 CMakeFiles/Space_invaders.dir/src/graphics.cpp.o: ../include/object.hpp
 CMakeFiles/Space_invaders.dir/src/graphics.cpp.o: ../src/graphics.cpp

@@ -8,6 +8,7 @@ Game::Game(RenderWindow* w)
 {
   m_window=w;
   m_graphics=new Graphics(w);
+  m_graphics->addObject(new Object("player",10,10));
 }
 
 void Game::run()

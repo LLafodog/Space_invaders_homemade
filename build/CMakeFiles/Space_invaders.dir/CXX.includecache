@@ -6,13 +6,37 @@
 
 #IncludeRegexTransform: 
 
+../include/defines.hpp
+vector
+-
+string
+-
+
+../include/graphics.hpp
+SFML/Graphics.hpp
+-
+string
+-
+vector
+-
+
 ../include/object.hpp
 SFML/Graphics.hpp
 -
 string
 -
 
-/home/llafodog/Programmation/C++/Space_invaders_homemade/src/object.cpp
+/home/llafodog/Programmation/C++/Space_invaders_homemade/src/graphics.cpp
+graphics.hpp
+-
 object.hpp
+-
+graphics.hpp
+-
+defines.hpp
+-
+string
+-
+iostream
 -
 
